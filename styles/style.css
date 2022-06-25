@@ -1,0 +1,109 @@
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&family=Rubik+Moonrocks&display=swap");
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header,
+footer {
+    background-color: #333;
+    padding: 10px 0;
+}
+
+header h1{
+    font-family: 'Dancing Script', cursive;
+}
+
+header h1,
+footer p {
+    text-align: center;
+    color: white;
+    font-weight: bold;
+}
+
+main {
+    padding: 60px 10px;
+}
+
+main p {
+    text-align: justify;
+    text-align-last: center;
+    color: chocolate;
+    text-transform: uppercase;
+    text-indent: 50px;
+    /* letter-spacing: 1px; */
+    word-spacing: 10px;
+    /* line-height: 18px; */
+}
+
+main h1 {
+    color: white;
+    text-shadow: 2px 2px 5px black;
+}
+
+main .card {
+    width: 200px;
+    height: 200px;
+    /* border: 1px solid red; */
+    border-radius: 4px;
+    margin: 0 auto;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+main h2 {
+    font-family: "Rubik Moonrocks", cursive;
+}
+
+#one {
+    font-family: Georgia, "Times New Roman", Times, serif;
+}
+#two {
+    font-family: Arial, Helvetica, sans-serif;
+}
+#three {
+    font-family: "Courier New", Courier, monospace;
+}
+#four {
+    font-family: cursive;
+}
+#five {
+    font-family: fantasy;
+}
+
+/* main i{
+    font-size: 48px;
+    color: red;
+} */
+
+/* body,
+main {
+    height: 100vh;
+}
+
+main {
+    border: 1px solid yellow;
+}
+
+header {
+    border: 1px solid green;
+    height: 100px;
+} */
+
+/* div {
+    width: 500px;
+    padding: 0 20px;
+    border: 1px solid red;
+    height: 25%;
+} */
+
+div.box {
+    border: 5px solid yellowgreen;
+    height: 100px;
+    /* width: 100%; */
+    max-width: 500px;
+    outline: 2px solid red;
+    margin: 10px;
+    outline-offset: 5px;
+}
